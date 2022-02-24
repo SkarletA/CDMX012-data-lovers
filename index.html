@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <title>Data Lovers - Pokeland</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+
+      <div class="btn-primary">
+        <button type="checkbox" class="btn-pokeball hide"><img  class ="icon-ball-primary" src="./icon/Pokeball.svg"></button>
+        <nav class="top-nav-primary">
+          <ul>
+            <li><img class="icon-ball" src="./icon/Pokeball.svg"></li>
+            <li><a href="index.html">Pokeland</a></li>
+            <li><a href="https://pokemongolive.com/es_mx/">Go to the game...</a></li>
+            <li><a href="https://pokemongolive.com/es_MX/post/">News</a></li>
+            <div class="center-nav">
+              <!--Diseno de los botones de orden-->
+              <div class="order-container">
+                <div class="orderOption">
+                  <div class="icon-pokeball"><img class="pokeball" src="./icon/pokebola gris.svg" alt="">
+                  </div>
+                  <label for="">Order By: </label>
+                  <section class="btn-ordenar">
+                      <button type="submit" id="orderAZ" class="" ><img class="orderAZ-img" src="./icon/A-Z.svg"></button>
+                      <button type="submit" id="orderZA" class="hide"><img class="orderZA-img" src="./icon/Z-a.svg"></button> 
+                      <button type="submit" id="orderAscendente" class="hide"><img class="orderBy-img" src="./icon/Mayor-menor.svg"></button>
+                      <button type="submit" id="orderDescendente" class=""><img class="orderBy-img" src="./icon/menor-mayor.svg"></button>
+                  </section>
+                </div>
+              </div>
+              <!--Diseno de la barra de buscador-->
+              <div class="search">
+                  <div class="search-container">
+                    <label for="">Name or ID</label>
+                    <input type="search" name="buscador" id="search" placeholder="Buscar">
+                    <button type="submit" id="search-name-id"><img src="./icon/lupa.svg" class="lupa" alt=""></button>
+                  </div>
+              </div>
+              <!--Diseno del boton de filtrado-->
+            </div>
+            <li class=" btn-login"><a href="#login">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav class="top-nav">
+        <div class="options-filter" id="filter">
+          <div class="btn-types">
+            <button type ="submit" class ="select-type"><img class ="icon-filter" src ="./icon/Pokeball-filtrado(+).svg" alt=""> Select Pokemon Type   </button>
+            <button type ="submit" class ="select-type-cover"><img class ="icon-filter" src ="./icon/Pokeball-filtrado(-).svg" alt="">Hide Pokemon Type  </button>
+
+          </div>
+          <div class="btn-general-type hide">
+            <div class="title-type">
+              <h1>Types</h1>
+            </div>
+            <div class="description-types">
+              <ul>
+                <li><button type="submit" class="type-pokemon fire" id="fire" name="fire">Fire</button></li>
+                <li><button type="submit" class="type-pokemon water" id="water" name="water">Water</button></li>
+                <li><button type="submit" class="type-pokemon bug" id="bug" name="bug">Bug</button></li>
+                <li><button type="submit" class="type-pokemon grass" id="grass" name="grass">Grass</button></li>
+                <li><button type="submit" class="type-pokemon dragon" id="dragon" name="dragon">Dragon</button></li>
+                <li><button type="submit" class="type-pokemon fairy" id="fairy" name="fairy">Fairy</button></li>
+                <li><button type="submit" class="type-pokemon ghost" id="ghost" name="ghost">Ghost</button></li>
+                <li><button type="submit" class="type-pokemon ground" id="ground" name="ground">Ground</button></li>
+                <li><button type="submit" class="type-pokemon normal" id="normal" name="normal">Normal</button></li>
+                <li><button type="submit" class="type-pokemon psychic" id="psychic" name="psychic">Psychic</button></li>
+                <li><button type="submit" class="type-pokemon steel" id="steel" name="steel">Steel</button></li>
+                <li><button type="submit" class="type-pokemon dark" id="dark" name="dark">Dark</button></li>
+                <li><button type="submit" class="type-pokemon electric" id="electric" name="electric">Electric</button></li>
+                <li><button type="submit" class="type-pokemon fighting" id="fighting" name="fighting">Fighting</button></li>
+                <li><button type="submit" class="type-pokemon flying" id="flying" name="flying">Flying</button></li>
+                <li><button type="submit" class="type-pokemon ice" id="ice" name="ice">Ice</button></li>
+                <li><button type="submit" class="type-pokemon poison" id="poison" name="poison">Poison</button></li>
+                <li><button type="submit" class="type-pokemon rock" id="rock" name="rock">Rock</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container-login" id="container-login">
+        <div class="login " id="login">
+          <img src="./icon/user.svg" alt=""><label for="">Login</label>
+          <label for="">Username: <input type="text" class="username"></label>
+          <label for="">Password: <input type="password" class="password"></label>
+          <button type="submit" class="send"><img src="./icon/Send.svg" alt="">Send</button>
+        </div>
+    </div>
+
+    </header>
+    <main>
+      <section class="cards-containers-principal">
+      </section>
+
+    </main>
+    <footer>
+      <div class="footer-container">
+        <p>2022,</p>
+        <img src="./icon/derechos de autor.svg">
+        <p>Rights reserved by Skarlet and Lorena</p>
+        <a href="https://github.com/SkarletA/CDMX012-data-lovers"><img src="./icon/github.svg"></a>
+      </div>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
