@@ -18,23 +18,23 @@ En este READ.ME encontrarás la información general aceca de la elaboración de
 
 ##  - Imagen del proyecto final
 
-![imagen box data lovers](README/ImageFinalProject.png)
+![imagen box data lovers](src/README/ImageFinalProject.png)
 
 ## - Imagen de información de Pokemon
 
-![imagen box data lovers](README/ImageFinalProject(2).png)
+![imagen box data lovers](src/README/ImageFinalProject(2).png)
 
 ## - Imagen de escoger un Pokemon Random para la batalla
 
-![imagen box data lovers](README/ImageFinalProject(3).png)
+![imagen box data lovers](src/README/ImageFinalProject(3).png)
 
 ## - Imagen del mensaje del ganador de la batalla
 
-![imagen box data lovers](README/ImageFinalProject(4).png)
+![imagen box data lovers](src/README/ImageFinalProject(4).png)
 
 ## - Imagen de información no encontrada
 
-![imagen box data lovers](README/ImageFinalProject(5).png)
+![imagen box data lovers](src/README/ImageFinalProject(5).png)
 
 
 ***
@@ -60,10 +60,10 @@ Las historias de usuario en las que se basa el proyecto para darle solución al 
 
 ### 2.3 Elaboración de prototipo de baja fidelidad
 
-![imagen prototipo inicio final](README/prototype_inicial_final_desktop.jpeg)
-![imagen prototipo desktop](README/Prototype_desktop.jpeg)
-![imagen prototipo mobile](README/prototype_mobile.jpeg)
-![imagen prototipo tablet](README/prototype_tablet.jpeg)
+![imagen prototipo inicio final](src/README/prototype_inicial_final_desktop.jpeg)
+![imagen prototipo desktop](src/README/Prototype_desktop.jpeg)
+![imagen prototipo mobile](src/README/prototype_mobile.jpeg)
+![imagen prototipo tablet](src/README/prototype_tablet.jpeg)
 
 
 ### 2.4 Feedback
@@ -77,7 +77,7 @@ Al presentar el proyecto con los usuarios nos porporcionaron las siguientes reco
 
 ### 2.5 Prototipo Final
 
-![imagen prototipo final](README/ImageFigma.png)
+![imagen prototipo final](src/README/ImageFigma.png)
 
 
 ***
